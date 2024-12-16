@@ -1,1 +1,62 @@
+"""A Definitive Buy."""
+
+"""A Definitive Buy."""
+# Define a new function and name it `process_payment`.
+def process_payment():
+    print("The total cost of transaction will be 0.75 cents.")
+    print("Cha-ching! The payment has been processed")
+    
+    #call the function
+    process_payment() 
+    # This function prints the transaction fee and a notification that the payment has been processed. 
+    # You can run this code in your a_definitive_buy.py file. 
+
+# Create a function that prints two messages.
+def print_messages():
+    print("The total cost of the transaction")
+    print("The payment has been processed")
+
+# The function should accept three parameters:
+def print_custom_messages(cost, item, quantity):
+    message1 = "The cost of the transaction is: "
+    message2 = "The item being purchased is: "
+    message3 = "The quantity of the item being purchased is: "
+    print(message1 + cost)
+    print(message2 + item)
+    print(message3 + quantity)  
+     #Call the function with three messages
+    print_custom_messages(cost, item, quantity)
+    
+# Or you program the following.
+def print_custom_messages(cost, item, quantity):
+    # 1. The cost of the transaction`
+    print(f"The cost of the transaction is: {cost}")
+    # 2. The name of the item being purchased
+    print(f"The item being purchased is: {item}")
+    # 3. The quantity of the item being purchased
+    print(f"The quantity of the item being purchased is: {quantity}")
+
+def Process_payment(cost):
+    print(f"The cost of the transaction is: ${cost}")
+    print("The payment has been processed")
+if __name__== _main_: any
+Process_payment(0.75)
+
+
+# The first message should state the cost of the transaction.
+print("Cost of transaction")
+
+# The second message should state that the payment has been processed.
+print("Payment processed")
+
+if __name__ == "__main__":
+    # Call the function to run the code in the function.
+    process_payment()
+
+
+
+
+if __name__ == "__main__":
+    # Call the function to run the code in the function.
+    process_payment()
 
