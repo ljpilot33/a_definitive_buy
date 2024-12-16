@@ -1,15 +1,18 @@
 """A Definitive Buy."""
 
-"""A Definitive Buy."""
 # Define a new function and name it `process_payment`.
+
 def process_payment():
     print("The total cost of transaction will be 0.75 cents.")
     print("Cha-ching! The payment has been processed")
     
-    #call the function
-    process_payment() 
+    if __name__ == "__main__":
+   
+# Call the function to run the code in the function.
+    process_payment()
     # This function prints the transaction fee and a notification that the payment has been processed. 
     # You can run this code in your a_definitive_buy.py file. 
+
 
 # Create a function that prints two messages.
 def print_messages():
